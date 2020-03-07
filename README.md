@@ -16,12 +16,9 @@ apt update && apt install git -y && git clone https://github.com/htr-tech/ohmyzs
 ```
 ### [+] via wget
 ```
-apt update && apt install wget -y && bash -c "$(wget -O- https://raw.githubusercontent.com/htr-tech/ohmyzsh/master/zsh.sh)"
+apt update && apt install wget -y && wget https://raw.githubusercontent.com/htr-tech/ohmyzsh/master/zsh.sh && bash zsh.sh
 ```
-### [+] via curl
-```
-apt update && apt install curl -y && bash -c "$(curl -fsSL https://raw.githubusercontent.com/htr-tech/ohmyzsh/master/zsh.sh)"
-```
+
 
 ## [+] Find Me on :
 ### [~] [Facebook](https://facebook.com/tahmid.rayat.official/)
